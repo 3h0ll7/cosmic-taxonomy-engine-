@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #f7f3eb;
+    color: #2b2723;
+    font-family: 'EB Garamond', Georgia, serif;
+    background-image: 
+      radial-gradient(#d6cbba 0.75px, transparent 0.75px),
+      radial-gradient(#e5dcce 0.75px, #f7f3eb 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    min-height: 100vh;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-eb {
+  font-family: 'EB Garamond', Georgia, serif;
+}
+
+.font-mono-archive {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Botanical Victorian Manuscript Plate Border Styles */
+.plate-border {
+  border: 1px solid #c9bda8;
+  box-shadow: 
+    0 0 0 1px #faf6ed inset,
+    0 0 0 3px #dfd6c5 inset,
+    0 4px 12px rgba(60, 48, 30, 0.05);
+}
+
+.plate-border-subtle {
+  border: 1px solid #d5cbba;
+  box-shadow: 0 0 0 1px #faf6ed inset, 0 1px 3px rgba(60, 48, 30, 0.03);
+}
+
+.plate-border-gold {
+  border: 1px solid #bfa15f;
+  box-shadow: 
+    0 0 0 1px #fbf8f0 inset,
+    0 0 0 3px #d6c08d inset,
+    0 4px 16px rgba(110, 85, 35, 0.08);
+}
+
+.paper-card {
+  background-color: #faf6ee;
+  background-image: linear-gradient(180deg, #fdfbf7 0%, #f6f0e4 100%);
+}
+
+.paper-panel {
+  background-color: #f4ede0;
+}
+
+.paper-inset {
+  background-color: #eee6d6;
+}
+
+/* Custom scrollbar for academic archives */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #ede4d2;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2b59e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9e9077;
+}

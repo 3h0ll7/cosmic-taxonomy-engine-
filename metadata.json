@@ -1,0 +1,6 @@
+{
+  "name": "Cosmic Analysis & Astronomical Taxonomic Logic",
+  "description": "A botanical research archive-styled astronomical classification dashboard analyzing the cosmos through taxonomic hierarchies and Victorian scientific lithography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
